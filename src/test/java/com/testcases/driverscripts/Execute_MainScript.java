@@ -316,7 +316,7 @@ public class Execute_MainScript {
 		System.out.print(diffHours + " hours, ");
 		System.out.print(diffMinutes + " minutes, ");
 		System.out.print(diffSeconds + " seconds.");
-		email.performTask();
+		//email.performTask();
 	}  
 
 

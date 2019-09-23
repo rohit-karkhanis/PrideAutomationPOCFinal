@@ -164,7 +164,20 @@ public String getCellDataBySheetName(String sheetName,int colNum,int rowNum){
 			return cell.getStringCellValue();
 		else if(cell.getCellType()==Cell.CELL_TYPE_NUMERIC || cell.getCellType()==Cell.CELL_TYPE_FORMULA ){
 
+			double cellvalue  = cell.getNumericCellValue();
+			
+			if (cellvalue % 1 == 0) {
+				
+				String NumberwithoutDecimal = Double.toString(cellvalue);
+				String [] num = NumberwithoutDecimal.split("\\.");
+				String FinalString = num[0];
+				return FinalString;
+			}
+			
+			String otherString = Double.toString(cellvalue);
+			
 			String cellText  = String.valueOf(cell.getNumericCellValue());
+						
 			if (HSSFDateUtil.isCellDateFormatted(cell)) {
 				// format in form of M/D/YY
 				double d = cell.getNumericCellValue();
@@ -183,9 +196,9 @@ public String getCellDataBySheetName(String sheetName,int colNum,int rowNum){
 
 
 
-			return cellText;
+			return otherString;
 		}else if(cell.getCellType()==Cell.CELL_TYPE_BLANK)
-			return "";
+			return "No Value Specified";
 		else
 			return String.valueOf(cell.getBooleanCellValue());
 	}

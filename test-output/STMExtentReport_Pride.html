@@ -13,12 +13,10 @@
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-		<link href='https://cdn.rawgit.com/anshooarora/extentreports-java/bee7a4abdc590e21eec8618a90c81ff4d16e500a/dist/css/extent.css' type='text/css' rel='stylesheet' />
+		<link href='https://cdn.rawgit.com/anshooarora/extentreports-java/6d3843c29c354373fafad29c03a1a89b7e06c374/dist/css/extent.css' type='text/css' rel='stylesheet' />
 	
 	<title>ExtentReports</title>
 
-	<style type='text/css'>
-	</style>
 </head>
 
 	<body class='extent standard default hide-overflow '>
@@ -46,12 +44,12 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Sep 20, 2019 08:56:24 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Sep 23, 2019 04:17:33 PM</span>
 				</a>
 			</li>
 			<li>
                 <a href='#!'>
-                    <span class='label blue darken-3'>v3.1.1</span>
+                    <span class='label blue darken-3'>v3.0.6</span>
 				</a>
 			</li>
 		</ul>
@@ -72,7 +70,7 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
+						<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -123,10 +121,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='66.667%'><span class='strong'>18</span> test(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='3.704%'><span class='strong'>1</span> test(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>9</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='96.296%'>26</span> others
 				</div>
 			</div>
 		</div>
@@ -138,10 +136,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='66.667%'><span class='strong'>18</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='3.704%'><span class='strong'>1</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>9</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='96.296%'>26</span> others
 				</div>
 			</div>
 		</div>
@@ -159,14 +157,14 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC01_Basic_check</span>
-						<span class='test-time'>Sep 20, 2019 08:56:42 PM</span>
+						<span class='test-time'>Sep 23, 2019 04:17:51 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 08:56:42 PM</span>
-	<span class='label end-time'>Sep 20, 2019 08:56:42 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:51 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:51 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+3ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -180,7 +178,7 @@
 			<tbody>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:56:42 PM</td>
+					<td class='timestamp'>4:17:51 PM</td>
 					<td class='step-details'><span class='label white-text green'>TC01_Basic_checkhas been passed</span></td>
 				</tr>
 			</tbody>
@@ -190,16 +188,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='2'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC02_Login_Left_Menu</span>
-						<span class='test-time'>Sep 20, 2019 08:57:14 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 23, 2019 04:17:51 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 08:57:14 PM</span>
-	<span class='label end-time'>Sep 20, 2019 08:57:14 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:51 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:51 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -212,10 +210,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:57:14 PM</td>
-					<td class='step-details'><span class='label white-text green'>TC02_Login_Left_Menuhas been passed</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:51 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC02_Login_Left_Menu has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -224,16 +222,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='3'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC03_Login_Header</span>
-						<span class='test-time'>Sep 20, 2019 08:57:43 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 23, 2019 04:17:51 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 08:57:43 PM</span>
-	<span class='label end-time'>Sep 20, 2019 08:57:43 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:51 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:51 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -246,10 +244,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:57:43 PM</td>
-					<td class='step-details'><span class='label white-text green'>TC03_Login_Headerhas been passed</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:51 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC03_Login_Header has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -258,16 +256,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='4'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC04_Logout</span>
-						<span class='test-time'>Sep 20, 2019 08:58:11 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 23, 2019 04:17:51 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 08:58:11 PM</span>
-	<span class='label end-time'>Sep 20, 2019 08:58:11 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:51 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:51 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -280,10 +278,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:58:11 PM</td>
-					<td class='step-details'><span class='label white-text green'>TC04_Logouthas been passed</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:51 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC04_Logout has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -292,16 +290,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='5'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC05_Logout_inactivity</span>
-						<span class='test-time'>Sep 20, 2019 08:58:34 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 23, 2019 04:17:51 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 08:58:34 PM</span>
-	<span class='label end-time'>Sep 20, 2019 08:58:34 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:51 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:51 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -314,10 +312,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:58:34 PM</td>
-					<td class='step-details'><span class='label white-text green'>TC05_Logout_inactivityhas been passed</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:51 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC05_Logout_inactivity has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -326,16 +324,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='6'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC06_HomeUIElementsCheck</span>
-						<span class='test-time'>Sep 20, 2019 08:58:43 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 23, 2019 04:17:51 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 08:58:43 PM</span>
-	<span class='label end-time'>Sep 20, 2019 08:58:43 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:51 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:51 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -348,10 +346,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:58:43 PM</td>
-					<td class='step-details'><span class='label white-text green'>TC06_HomeUIElementsCheckhas been passed</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:51 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC06_HomeUIElementsCheck has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -360,16 +358,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='7'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC07_MyProfile</span>
-						<span class='test-time'>Sep 20, 2019 08:59:41 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 23, 2019 04:17:51 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 08:59:41 PM</span>
-	<span class='label end-time'>Sep 20, 2019 08:59:41 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:51 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:51 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -382,10 +380,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>8:59:41 PM</td>
-					<td class='step-details'><span class='label white-text green'>TC07_MyProfilehas been passed</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:51 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC07_MyProfile has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -394,16 +392,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='8'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='8'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC08_CSRnewAdd</span>
-						<span class='test-time'>Sep 20, 2019 09:00:49 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 23, 2019 04:17:51 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 09:00:49 PM</span>
-	<span class='label end-time'>Sep 20, 2019 09:00:49 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:51 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:51 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -416,10 +414,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>9:00:49 PM</td>
-					<td class='step-details'><span class='label white-text green'>TC08_CSRnewAddhas been passed</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:51 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC08_CSRnewAdd has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -428,16 +426,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='9'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='9'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC09_Quotes_PageLoad</span>
-						<span class='test-time'>Sep 20, 2019 09:01:23 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 23, 2019 04:17:51 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 09:01:23 PM</span>
-	<span class='label end-time'>Sep 20, 2019 09:01:23 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:51 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:51 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -450,10 +448,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>9:01:23 PM</td>
-					<td class='step-details'><span class='label white-text green'>TC09_Quotes_PageLoadhas been passed</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:51 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC09_Quotes_PageLoad has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -462,16 +460,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='10'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='10'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC10_QuotesOptionsCheck</span>
-						<span class='test-time'>Sep 20, 2019 09:02:02 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 23, 2019 04:17:51 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 09:02:02 PM</span>
-	<span class='label end-time'>Sep 20, 2019 09:02:02 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:51 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:51 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -484,10 +482,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>9:02:02 PM</td>
-					<td class='step-details'><span class='label white-text green'>TC10_QuotesOptionsCheckhas been passed</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:51 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC10_QuotesOptionsCheck has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -496,16 +494,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='11'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='11'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC11_QuotesOptionsDetails</span>
-						<span class='test-time'>Sep 20, 2019 09:02:27 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 23, 2019 04:17:52 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 09:02:27 PM</span>
-	<span class='label end-time'>Sep 20, 2019 09:02:27 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:52 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:52 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -518,10 +516,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>9:02:27 PM</td>
-					<td class='step-details'><span class='label white-text green'>TC11_QuotesOptionsDetailshas been passed</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:52 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC11_QuotesOptionsDetails has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -530,16 +528,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='12'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='12'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC12_VerifyQuotesSearch</span>
-						<span class='test-time'>Sep 20, 2019 09:03:05 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 23, 2019 04:17:52 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 09:03:05 PM</span>
-	<span class='label end-time'>Sep 20, 2019 09:03:05 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:52 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:52 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -552,10 +550,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>9:03:05 PM</td>
-					<td class='step-details'><span class='label white-text green'>TC12_VerifyQuotesSearchhas been passed</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:52 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC12_VerifyQuotesSearch has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -564,16 +562,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='13'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='13'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC13_Order_Creation</span>
-						<span class='test-time'>Sep 20, 2019 09:06:10 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Sep 23, 2019 04:17:52 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 09:06:10 PM</span>
-	<span class='label end-time'>Sep 20, 2019 09:06:10 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:52 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:52 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -586,10 +584,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='fail'>
-					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>9:06:10 PM</td>
-					<td class='step-details'><span class='label white-text red'>TC13_Order_Creation has been failed....</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:52 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC13_Order_Creation has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -598,16 +596,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='14'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='14'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC14_Quote_creation</span>
-						<span class='test-time'>Sep 20, 2019 09:06:34 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Sep 23, 2019 04:17:52 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 09:06:34 PM</span>
-	<span class='label end-time'>Sep 20, 2019 09:06:34 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:52 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:52 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -620,10 +618,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='fail'>
-					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>9:06:34 PM</td>
-					<td class='step-details'><span class='label white-text red'>TC14_Quote_creation has been failed....</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:52 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC14_Quote_creation has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -632,16 +630,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='15'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='15'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC15_Shopping_Cart_display</span>
-						<span class='test-time'>Sep 20, 2019 09:06:59 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Sep 23, 2019 04:17:52 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 09:06:59 PM</span>
-	<span class='label end-time'>Sep 20, 2019 09:06:59 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:52 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:52 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -654,10 +652,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='fail'>
-					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>9:06:59 PM</td>
-					<td class='step-details'><span class='label white-text red'>TC15_Shopping_Cart_display has been failed....</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:52 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC15_Shopping_Cart_display has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -666,16 +664,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='16'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='16'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC16_Basic_PLP_check</span>
-						<span class='test-time'>Sep 20, 2019 09:07:17 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 23, 2019 04:17:52 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 09:07:17 PM</span>
-	<span class='label end-time'>Sep 20, 2019 09:07:17 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:52 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:52 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -688,10 +686,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>9:07:17 PM</td>
-					<td class='step-details'><span class='label white-text green'>TC16_Basic_PLP_checkhas been passed</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:52 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC16_Basic_PLP_check has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -700,16 +698,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='17'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='17'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC17_PLP_Facets</span>
-						<span class='test-time'>Sep 20, 2019 09:08:08 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 23, 2019 04:17:52 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 09:08:08 PM</span>
-	<span class='label end-time'>Sep 20, 2019 09:08:08 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:52 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:52 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -722,10 +720,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>9:08:08 PM</td>
-					<td class='step-details'><span class='label white-text green'>TC17_PLP_Facetshas been passed</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:52 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC17_PLP_Facets has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -734,16 +732,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='18'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='18'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC18_Sort-Pagination</span>
-						<span class='test-time'>Sep 20, 2019 09:08:58 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 23, 2019 04:17:52 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 09:08:58 PM</span>
-	<span class='label end-time'>Sep 20, 2019 09:08:58 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:52 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:52 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -756,10 +754,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>9:08:58 PM</td>
-					<td class='step-details'><span class='label white-text green'>TC18_Sort-Paginationhas been passed</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:52 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC18_Sort-Pagination has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -768,16 +766,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='19'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='19'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC19_PDP_display</span>
-						<span class='test-time'>Sep 20, 2019 09:09:23 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Sep 23, 2019 04:17:52 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 09:09:23 PM</span>
-	<span class='label end-time'>Sep 20, 2019 09:09:23 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:52 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:52 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -790,10 +788,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='fail'>
-					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>9:09:23 PM</td>
-					<td class='step-details'><span class='label white-text red'>TC19_PDP_display has been failed....</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:52 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC19_PDP_display has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -802,16 +800,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='20'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='20'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC20_Verify_Finalize_section</span>
-						<span class='test-time'>Sep 20, 2019 09:09:47 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Sep 23, 2019 04:17:52 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 09:09:47 PM</span>
-	<span class='label end-time'>Sep 20, 2019 09:09:47 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:52 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:52 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -824,10 +822,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='fail'>
-					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>9:09:47 PM</td>
-					<td class='step-details'><span class='label white-text red'>TC20_Verify_Finalize_section has been failed....</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:52 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC20_Verify_Finalize_section has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -836,16 +834,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='21'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='21'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC21_Verify_Broken_Image_Home_Page</span>
-						<span class='test-time'>Sep 20, 2019 09:11:28 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 23, 2019 04:17:52 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 09:11:28 PM</span>
-	<span class='label end-time'>Sep 20, 2019 09:11:28 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:52 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:52 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -858,10 +856,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>9:11:28 PM</td>
-					<td class='step-details'><span class='label white-text green'>TC21_Verify_Broken_Image_Home_Pagehas been passed</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:52 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC21_Verify_Broken_Image_Home_Page has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -870,16 +868,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='22'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='22'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC22_Verify_Broken_Image_PDP_Page</span>
-						<span class='test-time'>Sep 20, 2019 09:11:52 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Sep 23, 2019 04:17:52 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 09:11:52 PM</span>
-	<span class='label end-time'>Sep 20, 2019 09:11:52 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:52 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:52 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -892,10 +890,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='fail'>
-					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>9:11:52 PM</td>
-					<td class='step-details'><span class='label white-text red'>TC22_Verify_Broken_Image_PDP_Page has been failed....</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:52 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC22_Verify_Broken_Image_PDP_Page has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -904,16 +902,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='23'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='23'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC23_Verify_Broken_Image_PLP_Page</span>
-						<span class='test-time'>Sep 20, 2019 09:14:03 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 23, 2019 04:17:52 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 09:14:03 PM</span>
-	<span class='label end-time'>Sep 20, 2019 09:14:03 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:52 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:52 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -926,10 +924,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>9:14:03 PM</td>
-					<td class='step-details'><span class='label white-text green'>TC23_Verify_Broken_Image_PLP_Pagehas been passed</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:52 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC23_Verify_Broken_Image_PLP_Page has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -938,16 +936,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='24'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='24'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC24_Verify_Broken_Image_Search_Page</span>
-						<span class='test-time'>Sep 20, 2019 09:15:47 PM</span>
-						<span class='test-status right pass'>pass</span>
+						<span class='test-time'>Sep 23, 2019 04:17:52 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 09:15:47 PM</span>
-	<span class='label end-time'>Sep 20, 2019 09:15:47 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:52 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:52 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -960,10 +958,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>9:15:47 PM</td>
-					<td class='step-details'><span class='label white-text green'>TC24_Verify_Broken_Image_Search_Pagehas been passed</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:52 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC24_Verify_Broken_Image_Search_Page has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -972,16 +970,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='25'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='25'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC25_Order_Creation_User</span>
-						<span class='test-time'>Sep 20, 2019 09:19:03 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Sep 23, 2019 04:17:52 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 09:19:03 PM</span>
-	<span class='label end-time'>Sep 20, 2019 09:19:03 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:52 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:52 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -994,10 +992,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='fail'>
-					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>9:19:03 PM</td>
-					<td class='step-details'><span class='label white-text red'>TC25_Order_Creation_User has been failed....</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:52 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC25_Order_Creation_User has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -1006,17 +1004,17 @@
 				</li>
 				
 				
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='26'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='26'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC26_Cart Check_Mobile</span>
-						<span class='test-time'>Sep 20, 2019 09:19:29 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Sep 23, 2019 04:17:52 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 09:19:29 PM</span>
-	<span class='label end-time'>Sep 20, 2019 09:19:29 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:52 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:52 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
 </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
@@ -1028,10 +1026,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='fail'>
-					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>9:19:29 PM</td>
-					<td class='step-details'><span class='label white-text red'>TC26_Cart Check_Mobile has been failed....</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:52 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC26_Cart Check_Mobile has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -1040,16 +1038,16 @@
 				</li>
 				
 				
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='27'>
+				<li class='test displayed active  skip' status='skip' bdd='false' test-id='27'>
 					<div class='test-heading'>
 						<span class='test-name'>chrome_TC27_DEMO_Myacc</span>
-						<span class='test-time'>Sep 20, 2019 09:19:54 PM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Sep 23, 2019 04:17:52 PM</span>
+						<span class='test-status right skip'>skip</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Sep 20, 2019 09:19:54 PM</span>
-	<span class='label end-time'>Sep 20, 2019 09:19:54 PM</span>
+	<span class='label start-time'>Sep 23, 2019 04:17:52 PM</span>
+	<span class='label end-time'>Sep 23, 2019 04:17:52 PM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+0ms</span>
 </div>
 	<div class='test-steps'>
@@ -1062,10 +1060,10 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr class='log' status='fail'>
-					<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-					<td class='timestamp'>9:19:54 PM</td>
-					<td class='step-details'><span class='label white-text red'>TC27_DEMO_Myacc has been failed....</span></td>
+				<tr class='log' status='skip'>
+					<td class='status skip' title='skip' alt='skip'><i class='material-icons'>redo</i></td>
+					<td class='timestamp'>4:17:52 PM</td>
+					<td class='step-details'><span class='label white-text yellow'>TC27_DEMO_Myacc has been skipped for this execution...</span></td>
 				</tr>
 			</tbody>
 		</table>
@@ -1119,19 +1117,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Sep 20, 2019 08:56:24 PM</div>
+					<div class='panel-lead'>Sep 23, 2019 04:17:33 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Sep 20, 2019 09:19:54 PM</div>
+			 		<div class='panel-lead'>Sep 23, 2019 04:17:52 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>1,409,887ms</div>
+					<div class='panel-lead'>19,332ms</div>
 				</div>
 			</div>
 		</div>
@@ -1144,22 +1142,22 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 18,
-				failParent: 9,
+				passParent: 1,
+				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
-				skipParent: 0,
-				exceptionsParent: 9,
+				skipParent: 26,
+				exceptionsParent: 26,
 				
-				passChild: 18,
-				failChild: 9,
+				passChild: 1,
+				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
-				skipChild: 0,
+				skipChild: 26,
 				infoChild: 0,
-				exceptionsChild: 9,
+				exceptionsChild: 26,
 				
 				passGrandChild: 0,
 				failGrandChild: 0,
@@ -1172,11 +1170,9 @@
 			};
 		</script>
 		
-			<script src='https://cdn.rawgit.com/anshooarora/extentreports-java/fca20fb7653aade98810546ab96a2a4360e3e712/dist/js/extent.js' type='text/javascript'></script>
+			<script src='https://cdn.rawgit.com/anshooarora/extentreports-java/5ed7b0c339b51aa347b44ccaa2e2ff29905b2f9f/dist/js/extent.js' type='text/javascript'></script>
 		
 		
- 		<script type='text/javascript'>
- 		</script>
 	</body>
 	
 </html>
